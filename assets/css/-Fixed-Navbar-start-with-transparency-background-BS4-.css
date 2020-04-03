@@ -107,3 +107,76 @@
   background-color: #fff!important;
 }
 
+#simbol {
+  padding: 0px 0px 0px 20px;
+  width: auto;
+  letter-spacing: 7px;
+}
+
+#textsim {
+  padding: 0px;
+  font-weight: normal;
+  font-size: 17px;
+  border-color: transparent!important;
+}
+
+#simbol, #textsim {
+  border-color: transparent!important;
+}
+
+.lagu {
+  list-style-type: none;
+  color: #333;
+  text-align: left;
+}
+
+.lagubuka {
+  list-style-type: initial;
+}
+
+.awallagu {
+  margin: 0px;
+}
+
+.col-md-12.text-left.txtlagu {
+  padding-left: 40px;
+}
+
+.text-left.list-acara {
+  color: #333333;
+}
+
+.lagu.depanacara {
+  list-style-type: initial;
+}
+
+.mb-2.wr1 {
+  color: #333;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.mb-2.wr1.iswr {
+  font-size: medium;
+  padding-left: 20px;
+}
+
+.mb-2.wr1, .mb-2.iswr {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-justify.card-text.wartatext {
+  padding-left: 37px;
+}
+
+.wr1 {
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.shadow-lg.ucapma {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #f6f8ff;
+}
+
