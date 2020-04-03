@@ -1,6 +1,6 @@
 .container-fluid, .row {
   margin: 0;
-  padding: 0;
+  padding: 0px 0px;
 }
 
 .arrow_down, .arrow_top {

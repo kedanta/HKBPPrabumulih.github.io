@@ -180,3 +180,27 @@
   background-color: #f6f8ff;
 }
 
+#mabigahead {
+  /*font-size: 7vmin;*/
+}
+
+.table thead th {
+  padding: 0px;
+}
+
+.table td, .table th {
+  padding: 10px;
+  border-color: #333;
+}
+
+.table td, .table th {
+  border-color: #333;
+}
+
+li {
+}
+
+.ayat {
+  font-weight: 800;
+}
+
