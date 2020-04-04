@@ -204,3 +204,35 @@ li {
   font-weight: 800;
 }
 
+.btn.btn-primary.tombolbuka {
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+#people-lansia {
+  width: 70px;
+  height: auto;
+  filter: invert(100%);
+}
+
+.row.parhalado {
+  color: #000;
+}
+
+.textsintua {
+  line-height: 50px;
+  margin: 0px;
+}
+
+.parhalado-box {
+  padding: 5% 0px;
+}
+
+.container.st-dec {
+  color: #fff;
+}
+
+.text-center.d-flex.justify-content-center.pimpinan-name {
+  color: #000;
+}
+
