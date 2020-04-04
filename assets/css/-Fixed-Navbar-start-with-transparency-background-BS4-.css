@@ -240,3 +240,9 @@ li {
   background-color: transparent;
 }
 
+.text-muted.mb-0.small.credit {
+  font-size: 20px;
+  height: auto;
+  padding: 5px 0px;
+}
+
