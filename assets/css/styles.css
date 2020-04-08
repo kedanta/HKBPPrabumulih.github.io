@@ -155,19 +155,8 @@
   border-color: transparent;
 }
 
-.fab.fa-youtube {
-  margin: 0px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 40px;
-  color: #fff;
-}
-
 .btn.btn-primary.youtube-btn:hover {
   background-color: rgb(244,71,107)!important;
-}
-
-.fab.fa-youtube {
 }
 
 section#contact {
@@ -511,22 +500,12 @@ body.drawer-open > div.drawer-fade {
   margin: 0px;
 }
 
-.audioplay {
-  width: 40px;
-  height: 40px;
-}
-
 #audioplay {
   height: 40px;
 }
 
-#lagu {
-  text-decoration: none;
-}
-
 .coleft {
-  margin: 0px;
-  padding: 0px;
+  width: 4%;
 }
 
 #portfolio * {
@@ -535,10 +514,6 @@ body.drawer-open > div.drawer-fade {
 .lirik {
   padding: 0px;
   text-align: left;
-}
-
-.liriklagu {
-  padding-left: 20px;
 }
 
 /* End Page */
@@ -589,10 +564,6 @@ body.drawer-open > div.drawer-fade {
 
 .boaboa {
   padding: 0px!important;
-}
-
-.nobor {
-  border-color: transparent!important;
 }
 
 .respon-list {
@@ -789,5 +760,29 @@ html {
 header.masthead .intro-text {
   padding-top: 100px!important;
   padding-bottom: 100px!important;
+}
+
+/* Tab Text */
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #0072c6;
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+  color: #333;
+}
+
+/* Tab Text */
+
+.text-akhir {
+  font-family: Aladin, cursive;
+  color: #333;
+}
+
+.list-stream {
+  font-size: 35px;
+  width: 45px;
+  text-align: center;
 }
 
