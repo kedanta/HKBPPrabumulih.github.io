@@ -145,10 +145,6 @@
   color: #fff;
 }
 
-.col.youtube-btn {
-  padding: 10px 30px;
-}
-
 .youtube-btn {
   padding: 10px 40px;
   background: rgb(229,5,58);
@@ -193,7 +189,6 @@ section#contact {
 
 .bgmerah {
   padding: 10px 10px;
-  margin: 0px;
 }
 
 .info-txt {
@@ -784,5 +779,10 @@ header.masthead .intro-text {
   font-size: 35px;
   width: 45px;
   text-align: center;
+}
+
+.yut {
+  font-size: 45px;
+  color: #fff;
 }
 
