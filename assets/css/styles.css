@@ -90,8 +90,8 @@
   color: #fff!important;
   padding: 40px 0px;
   margin: 0px;
-  /*position: absolute;*/
-  /*bottom: 0px;*/
+  /*position: fixed;*/
+  /*bottom: 1px;*/
 }
 
 .biru-txt {
