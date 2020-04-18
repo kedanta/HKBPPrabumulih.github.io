@@ -155,11 +155,6 @@
   background-color: rgb(244,71,107)!important;
 }
 
-section#contact {
-  background-image: url('../../assets/img/map-image.png?h=dde716a63e31eca254a82a274d4f56c0');
-  background-size: contain;
-}
-
 .fas.fa-info-circle.alert-icon {
   color: #000;
   font-size: 30px;

@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="180x180" href="assets/img/ios180.png?h=612a8f747812baf31ba6e2e4c5f93996">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/andro192.png?h=412c3c8dee99064b6c0894e250272cef">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/andros512.png?h=ebdb39e5e4d51efba730341868a11ebf">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=1a986ad00d09a7315fd1aa9eec0d51eb">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=2e5801a3c73d1c794b6d66222e2402b9">
     <link rel="manifest" href="manifest.json?h=996d80a5f4ffffdd9abded658f478e66">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css?h=18313f04cea0e078412a028c5361bd4e">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/styles.css?h=07f387ff62fb5257e801ae544abc2d98">
+    <link rel="stylesheet" href="assets/css/styles.css?h=73e940c415e4497bb5b98ab4ea1017ff">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JQ4EVP1YJN"></script>
 <script>
@@ -82,21 +82,42 @@
         </div>
     </nav>
     <!-- End: Sidebar -->
-    <header class="masthead gradient">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"><span>Syalom, Selamat Datang</span></div>
-                <div class="intro-heading text-uppercase"><span class="t1">HKBP KOTA PRABUMULIH</span>
-                    <p class="text-capitalize subheading">Portal Informasi HKBP di KOTA PRABUMULIH</p>
-                </div><a class="btn btn-primary js-scroll-trigger biru" role="button" href="#mabiga"><i class="fas fa-arrow-down"></i></a>
-                <div class="hero-banner shake-vertical"><img class="img-fluid logoheader" src="assets/img/logohkbp.svg?h=eb439a07cfa63b04e94a67a5fb889808"></div>
-            </div>
-        </div>
-    </header>
     <div class="row no-gutters alert alert-danger bgmerah m-0">
         <div class="col-auto align-self-center coler" data-aos="zoom-in"><i class="fas fa-bullhorn alert-icon"></i></div>
         <div class="col align-self-center info-txt" data-aos="fade-right"><em class="info-isi">Sering-sering cuci tangan, dan mari bersama menjaga kesehatan.</em></div>
     </div>
+    <section id="contact" class="gradient masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Kontak Kami</h2>
+                    <h3 class="section-subheading">Jika ada pertanyaan, saran, dan kritik dapat disampaikan melalui form berikut.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="contactForm" name="contactForm" novalidate="novalidate" action="//formspree.io/hkbpkasihprabumulih@gmail.com" method="post">
+                        <div class="form-row">
+                            <div class="col col-md-6">
+                                <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Nama (wajib)" required="" name="name"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group"><input class="form-control" type="email" id="email" placeholder="Email" required="" name="Email"><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group"><input class="form-control" type="tel" placeholder="Nomor Telepon / Whatsapp" name="Telepon/Whatsapp"><small class="form-text text-danger help-block lead"></small></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"><textarea class="form-control" id="message" placeholder="Isi Pesan..." required="" name="Pesan"></textarea><small class="form-text text-danger help-block lead"></small></div>
+                            </div>
+                            <div class="col">
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" value="Send">Send Message</button></div>
+                            <div class="col"><input class="form-control" type="text" name="_gotcha" style="display:none"><input class="form-control" type="hidden" name="_next" value="HKBPKasih.html"><input class="form-control" type="hidden" name="_cc" value="ndricsimarmata@gmail.com"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer text-center">
         <p class="text-center text-muted footer-txt">© 2020 Copyright&nbsp;<a class="biru-txt" href="#"><strong>HURIA KRISTEN BATAK PROTESTAN</strong></a>&nbsp; Kota Prabumulih</p>
         <!-- Start: Back to top --><a class="js-cd-top"><i class="fas fa-arrow-up"></i></a>
