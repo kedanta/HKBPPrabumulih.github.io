@@ -1,17 +1,9 @@
 .col-lg-12.text-center.mabiga-1 {
-  height: 130px;
+  /*height: auto;*/
 }
 
 .t1 {
   font-size: 0.8em;
-}
-
-#portfolio * {
-  height: auto;
-}
-
-#portfolio .portfolio-item {
-  margin: 0 0 0px;
 }
 
 .btn.btn-primary.js-scroll-trigger {
@@ -196,7 +188,7 @@
 }
 
 .subheading {
-  font-size: 0.4em;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -478,13 +470,11 @@ body.drawer-open > div.drawer-fade {
 
 #audioplay {
   height: 40px;
+  width: 100%;
 }
 
 .coleft {
   width: 4%;
-}
-
-#portfolio * {
 }
 
 .lirik {
@@ -859,5 +849,9 @@ div.social-links {
 
 .credit.col {
   line-height: 20px;
+}
+
+.card-bd {
+  height: 650px;
 }
 
