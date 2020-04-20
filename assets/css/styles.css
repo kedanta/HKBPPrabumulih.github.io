@@ -86,12 +86,9 @@
 }
 
 .footer-txt {
-  font-size: 1em;
   color: #fff!important;
-  padding: 40px 0px;
-  margin: 0px;
-  /*position: fixed;*/
-  /*bottom: 1px;*/
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .biru-txt {
@@ -102,7 +99,6 @@
 .footer {
   height: auto;
   background: rgb(13,13,13);
-  padding: 0px;
 }
 
 .fas.fa-arrow-up {
@@ -143,16 +139,6 @@
   background-color: rgb(252,94,114);
   border-color: rgb(252,94,114);
   color: #fff;
-}
-
-.youtube-btn {
-  padding: 10px 40px;
-  background: rgb(229,5,58);
-  border-color: transparent;
-}
-
-.btn.btn-primary.youtube-btn:hover {
-  background-color: rgb(244,71,107)!important;
 }
 
 .fas.fa-info-circle.alert-icon {
@@ -624,68 +610,6 @@ html {
   height: 52px;
 }
 
-/* Quote BG */
-
-.highlight-clean {
-  color: #313437;
-  background-color: #fff;
-  padding: 50px 0;
-}
-
-.highlight-clean p {
-  color: #7d8285;
-}
-
-.highlight-clean h2 {
-  font-weight: bold;
-  margin-bottom: 25px;
-  line-height: 1.5;
-  padding-top: 0;
-  margin-top: 0;
-  color: inherit;
-}
-
-.highlight-clean .intro {
-  font-size: 16px;
-  max-width: 500px;
-  margin: 0 auto 25px;
-}
-
-.highlight-clean .buttons {
-  text-align: center;
-}
-
-.highlight-clean {
-  color: white;
-  background-color: #2c1f1f;
-  padding: 50px 0;
-}
-
-.highlight-clean p {
-  color: #e1eaef;
-}
-
-.highlight-clean h2 {
-  font-weight: bold;
-  margin-bottom: 25px;
-  line-height: 1.5;
-  padding-top: 0;
-  margin-top: 0;
-  color: inherit;
-}
-
-.highlight-clean .intro {
-  font-size: 16px;
-  max-width: 500px;
-  margin: 0 auto 25px;
-}
-
-.highlight-clean .buttons {
-  text-align: center;
-}
-
-/* End Quote BG */
-
 /* Blink Effect */
 
 @keyframes blink-1 {
@@ -783,5 +707,157 @@ header.masthead .intro-text {
 
 .perbaikan {
   font-size: 15px;
+}
+
+.sosmed-btn {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  color: rgb(255,255,255)!important;
+  line-height: 55px;
+}
+
+.fb:hover {
+  background-color: rgb(66,103,178);
+  border-color: transparent;
+}
+
+.yt:hover {
+  background-color: rgb(255,0,0);
+  border-color: transparent;
+}
+
+.blockquote-footer.text-left {
+  background-color: transparent;
+}
+
+footer {
+  background-color: #141E30;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  /*padding: 55px 50px;*/
+  margin-top: 80px;
+  bottom: 0;
+  color: #fff;
+}
+
+.footer-navigation h3 {
+  margin: 0;
+  font: normal 36px Cookie, cursive;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-navigation h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-navigation h3 span {
+  color: #5383d3;
+}
+
+.footer-navigation p.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-navigation p.company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts {
+    margin: 30px 0;
+  }
+}
+
+.footer-contacts p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.footer-contacts p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.fa.footer-contacts-icon {
+  background-color: #33383b;
+  color: #fff;
+  font-size: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  margin: 10px 15px 10px 0;
+}
+
+span.new-line-span {
+  display: block;
+  font-weight: normal;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-about h4 {
+  display: block;
+  color: #fff;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+div.social-links {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.foot-row {
+  padding-left: 40px!important;
+  padding-right: 40px!important;
+}
+
+.credit {
+  background-color: rgb(27,27,27);
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.credit.col {
+  line-height: 20px;
 }
 
