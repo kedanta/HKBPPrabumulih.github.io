@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="180x180" href="assets/img/ios180.png?h=612a8f747812baf31ba6e2e4c5f93996">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/andro192.png?h=412c3c8dee99064b6c0894e250272cef">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/andros512.png?h=ebdb39e5e4d51efba730341868a11ebf">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=95fa3abb097b0874c7e7e6f922d98303">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=d9e8a5aeba5dd303454e5d5a90cca39e">
     <link rel="manifest" href="manifest.json?h=996d80a5f4ffffdd9abded658f478e66">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
@@ -110,22 +110,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <form id="contactForm" name="contactForm" action="https://getform.io/f/c71f9f65-3bfc-4c2f-b402-93e361887c35" method="post">
+                <div class="col-lg-12" data-form-type="formoid">
+                    <form class="form" name="contactForm" action-xhr="https://formoid.net/api/amp-form/push" method="post" target="_top" data-form-title="Mobirise Form"><input class="form-control" type="hidden" name="email" value="eCHydfug/u8kW+kkL1CKlprcqUBm1k33R8rDO6ajL10jKJRjE2+OzPhBdcvak+4fshI+t+nR43D0XKrTeoCiqnA3T7mFQVC7MX/yKccfXGDFbPoehNWwe+PufFwBRhQ0&quot;" data-form-email="true">
                         <div class="form-row">
+                            <div class="col">
+                                <div class="form-row">
+                                    <div class="col-sm-12 col-md-12" submit-success=""><template data-form-alert="" type="amp-mustache">Pesan Terkirim. Terimakasih.</template></div>
+                                    <div class="col-sm-12 col-md-12" submit-error=""><template data-form-alert="" type="amp-mustache">Failed! {{error}}</template></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row" data-for="form[data][1][1]">
                             <div class="col col-md-6">
-                                <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Nama (wajib)" required="" name="Name"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group"><input class="form-control" type="email" id="email" placeholder="Email" required="" name="Email"><small class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group"><input class="form-control" type="tel" placeholder="Nomor Telepon / Whatsapp" name="Telepon/Whatsapp"><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group" data-for="form[data][1][1]"><input type="hidden" name="form[data][0][0]" value="Name" id="form[data][1][0]-contacts2-5" data-form-field=""><input type="text" class="form-control" id="name" placeholder="Nama (wajib)" required name="form[data][0][1]" data-form-field="Name" id="form[data][1][1]-contacts2-5"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group" data-for="form[data][0][1]"><input type="hidden" class="form-control" name="form[data][2][0]" value="Email" id="form[data][0][0]-contacts2-5" data-form-field=""><input type="email" class="form-control" id="email" placeholder="Email" required name="form[data][2][1]" data-form-field="Email" id="form[data][0][1]-contacts2-5"><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group"><input type="hidden" name="form[data][1][0]" value="Phone" id="form[data][2][0]-contacts2-5" data-form-field=""><input type="tel" class="form-control" placeholder="Nomor Telepon / Whatsapp" name="form[data][1][1]" data-form-field="Phone" id="form[data][2][1]-contacts2-5"><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group"><textarea class="form-control" id="message" placeholder="Isi Pesan..." required="" name="Pesan"></textarea><small class="form-text text-danger help-block lead"></small></div>
-                            </div>
-                            <div class="col">
-                                <div class="clearfix"></div>
+                                <div class="form-group" data-for="form[data][3][1]"><input type="hidden" name="form[data][3][0]" value="Message" id="form[data][3][0]-contacts2-5" data-form-field=""><textarea class="form-control field-input" name="form[data][3][1]" data-form-field="Message" placeholder="Isi Pesan..." required id="form[data][3][1]-contacts2-5"></textarea><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button></div>
+                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button></div>
                             <div class="col"><input class="form-control" type="text" name="_gotcha" style="display:none"><input class="form-control" type="hidden" name="_next" value="HKBPKasih.html"><input class="form-control" type="hidden" name="_cc" value="ndricsimarmata@gmail.com"></div>
                         </div>
                     </form>
@@ -157,6 +162,9 @@
     <script src="assets/js/bootstrap.js?h=702049b302bef35ba3614119b4c82cce"></script>
     <script src="assets/js/bootstrap.min.js?h=61f338f870fcd0ff46362ef109d28533"></script>
     <script src="assets/js/Cover-image-parallax-optional-border-top-or-down-arrows.js?h=06c4665734ed6cfba47801de97696470"></script>
+    <script src="https://cdn.ampproject.org/v0.js"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.7.3/jarallax.min.js"></script>
 </body>
 
