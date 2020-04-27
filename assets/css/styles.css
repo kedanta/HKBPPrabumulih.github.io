@@ -104,7 +104,7 @@
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
-  z-index: 999;
+  z-index: 989;
 }
 
 .js-cd-top:hover {
